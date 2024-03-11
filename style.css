@@ -1,0 +1,76 @@
+* {
+  /* box-sizing: border-box; */
+}
+
+:focus {
+ /* TODO */
+}
+
+body {
+  background-image: linear-gradient(to right,yellow,orangered);
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+ 
+  /* TODO */
+}
+
+input {
+width:200px;
+Height:45px;
+border-radius: 10px;
+border:none;
+text-align: center;
+background-color: rgba(255, 255, 255, 0.468);
+ /* TODO */
+}
+
+.search-container {
+  display: flex;
+  flex-wrap:wrap;
+  margin: 0 auto;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height:100vh;
+  
+ /* TODO */
+}
+.search-container input,
+.search-container .suggestions {
+  /* TODO */
+}
+.search-container input {
+ /* TODO */
+}
+.search-container .suggestions {
+   /* TODO */
+}
+
+ul {
+background-color: rgba(255, 255, 255, 0.468);
+padding:0;
+position: relative;
+top:-15px;
+border-radius: 7px;
+  /* TODO */
+}
+ul.suggestions {
+  padding:0;
+  text-align: center;
+
+  /* TODO */
+}
+ul li {
+  list-style-type: none;
+  width:200px;
+  margin-top: 0;
+  
+  /* TODO */
+}
+ul li:hover {
+  /* background-color: orangered; */
+  /* TODO */
+}
+
+input {
+   /* TODO */
+}
